@@ -1,4 +1,4 @@
-class Item
+class Needle 
   include Comparable
   attr_reader :value
 
