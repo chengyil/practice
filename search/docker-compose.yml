@@ -1,7 +1,8 @@
 version: '3.2'
 services:
   bash:
-    image: ruby:2.3
+    build:
+      context: .
     working_dir: /opt/ruby
     volumes:
       - type: bind
