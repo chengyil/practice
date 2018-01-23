@@ -14,6 +14,7 @@ module Sort
     end
 
     def swap(&block)
+      p self
       @swaps += 1
       block.call
     end
