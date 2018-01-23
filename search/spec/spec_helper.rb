@@ -1,3 +1,3 @@
-Dir["/opt/ruby/lib/*.rb"].each do |file|
+Dir.glob(File.join('/opt/ruby/lib/**','*.rb')).each do |file|
   require file
 end
